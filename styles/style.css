@@ -1,0 +1,46 @@
+/* 
+* @Author: anchen
+* @Date:   2018-07-30 18:09:12
+* @Last Modified by:   anchen
+* @Last Modified time: 2018-07-30 19:13:19
+*/
+
+body {
+    width: 800px;
+    margin: 2em auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: cyan;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow:3px 3px 10px black;
+    /*text-shadow 第一个像素值设置了水平对齐——它的横向偏移；一个负值会导致向左偏移。
+    第二个像素值设置了垂直对齐——它的纵向偏移；一个负值会导致向上偏移。
+    第三个像素值设置了阴影的模糊半径——越大的值会产生越模糊的阴影。
+    第四个值设置了阴影的基色。*/
+}
+
+p,li {
+    font-size: 16px;    
+    line-height: 2;
+    letter-spacing: 1px;
+}
